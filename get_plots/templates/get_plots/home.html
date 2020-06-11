@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <head>
+    <meta charset="utf-8">
+    <title>matplot</title>
+  </head>
+  <body>
+    <div style="padding:1rem 1rem;text-align:center">
+      <form action="">
+          <label for="fname">Word1</label><br>
+          <input type="text" id="fname" name="fname" value=""><br>
+          
+          <label for="lname">Word2</label><br>
+          <input type="text" id="lname" name="lname" value=""><br><br>
+
+          <button type="submit" style="padding:.5rem 2.5rem;color:#FBFDFF;font-weight:700;background:linear-gradient(to top right, #50CAF9, #5368f1);border-radius:10px;border-width:0;cursor:pointer">submit</button>
+      </form>
+  </div>
+    <div style="padding:4rem 1rem;text-align:center">
+      <img src="data:image/png;base64,{{ data }}" alt="" height="250" ,width="250">
+  </div>
+  </body>
+  {% endblock %}

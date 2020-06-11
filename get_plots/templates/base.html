@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'get_plots/button.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'get_plots/default.css' %}">
+        <script src="{% static 'get_plots/constants.js' %}"></script>
+        {% block head %}
+        <meta charset="utf-8">
+        <title></title>
+        {% endblock %}
+    </head>
+    <body>
+        <div style="padding:4rem 1rem;text-align:center">
+            <h1>Summer of NLP</h1>
+        </div>
+        {% block body %}
+        <div class="hero"></div>
+        {% endblock %}
+    </body>
+</html>

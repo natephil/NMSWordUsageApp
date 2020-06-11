@@ -1,0 +1,14 @@
+button {
+    box-shadow: 0px 5px 20px -2px rgba(121, 211, 255, 0.25);
+    transition: all 0.5s ease-in-out;
+    padding: .5rem 2.5rem;
+    color: #FBFDFF;
+    font-weight: 700;
+    background: linear-gradient(to top right, #50CAF9, #5368f1);
+    border-radius: 10px;
+    border-width: 0;
+    cursor: pointer
+  }
+  button:hover {
+    box-shadow: 0px 5px 20px -2px rgba(121, 211, 255, 0.75);
+  }
